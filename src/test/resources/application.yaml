@@ -14,6 +14,9 @@ spring:
         default-page-size: 10
         max-page-size: 2000
 
+  profiles:
+    active: test
+
 logging:
   level:
     org.hibernate.SQL: debug
